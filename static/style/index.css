@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.box{
+    position:absolute;
+    left:0;
+   top:0;
+   width:100vw;
+   height:100vh;
+   background:#fff;
+   opacity:0;
+   transition:0.5s;
+}

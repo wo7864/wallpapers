@@ -4,7 +4,7 @@ const path = require("path");
 const app = express();
 
 /* Ensure any requests prefixed with /static will serve our "frontend/static" directory */
-app.use("/static", express.static(path.resolve(__dirname, "frontend", "static")));
+app.use("/static", express.static( "static"));
 
 /* Redirect all routes to our (soon to exist) "index.html" file */
 app.get("/*", (req, res) => {
