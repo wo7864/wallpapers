@@ -23,7 +23,9 @@ export default class Wallpapers extends AbstractView {
                 <li>
                     <a href="./PencilStroke" data-link>PencilStroke</a>
                 </li>
-
+                <li>
+                    <a href="./IconHoverEffect3D" data-link>IconHoverEffect3D</a>
+                </li>
             </ul>
         `;
     }

@@ -3,7 +3,7 @@ import ButtonAnimation1 from "./views/ButtonAnimation1.js";
 import LiquidButton from "./views/LiquidButton.js";
 import NeonLightButton from "./views/NeonLightButton.js";
 import PencilStroke from "./views/PencilStroke.js";
-
+import IconHoverEffect3D from './views/IconHoverEffect3D.js'
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
 const router = async () => {
@@ -13,6 +13,7 @@ const router = async () => {
         { path: "/LiquidButton", view: LiquidButton },
         { path: "/NeonLightButton", view: NeonLightButton },
         { path: "/PencilStroke", view: PencilStroke },
+        { path: "/IconHoverEffect3D", view: IconHoverEffect3D },
     ];
 
     const potentialMatches = routes.map(route => {
