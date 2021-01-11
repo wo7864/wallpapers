@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     background:#262626;
-
+    overflow: hidden;
 }
 
 .stroke{
@@ -27,11 +27,16 @@ body{
 
 }
 
+.stroke:hover:after,
+.stroke:hover:before{
+    animation-play-state:paused;
+}
+
 .stroke:after{
     content:'\f040';
     font-family: fontAwesome;
     position:absolute;
-    top:-45px;
+    top:-60px;
     left:0;
     width:100%;
     height:100%;
@@ -40,7 +45,6 @@ body{
     color: #a9ff08;
     font-size:50px;
     animation-timing-function: cubic-bezier(.75, .04, 0, .86);
-
 }
 
 @keyframes animate{

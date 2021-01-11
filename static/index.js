@@ -2,7 +2,7 @@ import Wallpapers from "./views/Wallpapers.js";
 import ButtonAnimation1 from "./views/ButtonAnimation1.js";
 import LiquidButton from "./views/LiquidButton.js";
 import NeonLightButton from "./views/NeonLightButton.js";
-
+import PencilStroke from "./views/PencilStroke.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
@@ -12,6 +12,7 @@ const router = async () => {
         { path: "/ButtonAnimation1", view: ButtonAnimation1 },
         { path: "/LiquidButton", view: LiquidButton },
         { path: "/NeonLightButton", view: NeonLightButton },
+        { path: "/PencilStroke", view: PencilStroke },
     ];
 
     const potentialMatches = routes.map(route => {

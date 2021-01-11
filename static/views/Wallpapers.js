@@ -18,8 +18,11 @@ export default class Wallpapers extends AbstractView {
                     <a href="./LiquidButton" data-link>LiquidButton</a>
                 </li>
                 <li>
-                <a href="./NeonLightButton" data-link>NeonLightButton</a>
-            </li>
+                    <a href="./NeonLightButton" data-link>NeonLightButton</a>
+                </li>
+                <li>
+                    <a href="./PencilStroke" data-link>PencilStroke</a>
+                </li>
 
             </ul>
         `;
