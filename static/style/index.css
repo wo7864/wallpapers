@@ -5,13 +5,9 @@ body {
 }
 
 #app {
-    margin: 2em;
-    line-height: 1.5;
-    font-weight: 500;
-    transition: 0.5s;
 }
 
-.box{
+.page-animation-box{
     position:absolute;
     left:0;
    top:0;

@@ -36,11 +36,12 @@ const router = async () => {
 
     document.querySelector("#detail-css").href = `/static/style/${view.name}.css`;
     document.querySelector("#app").innerHTML = await view.getHtml();
+    view.scripts();
 }
 
 const routeAnimation = () => {
     const box = document.createElement('div');
-    box.className = 'box';
+    box.className = 'page-animation-box';
     document.body.appendChild(box);
     setTimeout(()=> {
         box.style.opacity=1;
